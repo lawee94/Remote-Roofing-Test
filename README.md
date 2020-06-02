@@ -56,10 +56,10 @@ Your app is ready to be deployed!
 
 The technologies implemented in this project are React, React-Router , Redux, axios and a significant amount of VanillaJS, JSX, and CSS. I chose to use the create-react-app boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. Also i choose redux purposely to manage the state of react component such as the error state, loading state and the content gotten from API JSON Feed using axios.
 
-The improvement that can be made to this project are:
-    1.  Adding a detail page showing description about each movie or series
-    2.  Adding authentication.
-    3.  Functionality of adding movie or series to a watchlist, favourite or playlist.
+The improvement that can be made to this project are: <br />
+    1.  Adding a detail page showing description about each movie or series <br />
+    2.  Adding authentication. <br />
+    3.  Functionality of adding movie or series to a watchlist, favourite or playlist. <br />
     4.  Adding pagination
 
 
