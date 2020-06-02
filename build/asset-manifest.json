@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/static/js/main.e2e4a79a.chunk.js",
+    "main.js.map": "/static/js/main.e2e4a79a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b534bbbd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b534bbbd.js.map",
+    "static/js/2.84630cdc.chunk.js": "/static/js/2.84630cdc.chunk.js",
+    "static/js/2.84630cdc.chunk.js.map": "/static/js/2.84630cdc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d31da812e3ad1061a54dbad0dba94cc9.js": "/precache-manifest.d31da812e3ad1061a54dbad0dba94cc9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.84630cdc.chunk.js.LICENSE.txt": "/static/js/2.84630cdc.chunk.js.LICENSE.txt",
+    "static/media/apple.png": "/static/media/apple.e2798516.png",
+    "static/media/fc.ico": "/static/media/fc.e4482a00.ico",
+    "static/media/gp.png": "/static/media/gp.e9ebd6c0.png",
+    "static/media/movies.PNG": "/static/media/movies.a73511f7.PNG",
+    "static/media/series.PNG": "/static/media/series.a799473d.PNG",
+    "static/media/twit.ico": "/static/media/twit.013a4800.ico"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b534bbbd.js",
+    "static/js/2.84630cdc.chunk.js",
+    "static/js/main.e2e4a79a.chunk.js"
+  ]
+}
