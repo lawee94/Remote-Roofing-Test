@@ -10,6 +10,7 @@ body{
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color:  #F6F6EF;
+  min-height: 100vh; 
 }
 
 

@@ -1,57 +1,53 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import facebook from '../assests/facebook.png';
-import twitter from '../assests/twitter.png';
-import linkedin from '../assests/linkedin.png';
-import path from '../assests/path.png';
-import instagram from '../assests/instagram.png';
-import skype from '../assests/skype.png';
-import youtube from '../assests/youtube.png';
+import facebook from '../assests/fc.ico';
+import instgram from '../assests/inst.png'
+import twitter from '../assests/twit.ico'
+import googleplay from '../assests/gp.png';
+import microsoft from '../assests/mic.png';
+import apple from '../assests/apple.png';
 
 const footer = (props) => (
-    <div>
-        <section id="footer-bar" className="pl-5">
-				<div className="row">
-					<div className="col-sm-3">
-						<h4>Navigation</h4>
-						<ul className="">
-							<li><Link to="/">Homepage</Link></li>  
-							<li><Link to="/about">About Us</Link></li>
-							<li><Link to="/contact">Contac Us</Link></li>
-							<li><Link to="/cart">Your Cart</Link></li>							
-						</ul>					
+
+    <footer className='bg-dark w-100 py-4'>
+
+		<div id='footer' className="scale">
+
+			<ul className="">
+				<li><Link to="/">Home</Link></li>
+				<li><Link to="#">Term and Condition</Link></li>
+				<li><Link to="#">Privacy Policy</Link></li>
+				<li><Link to="#">Collection Statement</Link></li>
+				<li><Link to="#">Help</Link></li>
+				<li><Link to="#">Manage Account</Link></li>
+			</ul>
+
+			<span>Copyright &copy; 2008 DEMO Streaming. All Right Reserves </span><br />
+
+			<div className='row mt-4 px-1 w-100' style={{display: 'inline-block'}}>
+
+				<div className='float-left'> 
+					<img width='15' className='img-fluid' src={facebook} alt='' />
+					<img width='15' className='img-fluid' src={twitter} alt='' />
+					<img width='15' className='img-fluid' src={instgram} alt='' />
+				</div>
+				
+				<div className='col row float-right max300' >
+					<div className='col'>
+						<img className='img-fluid'  src={apple} alt='' />
 					</div>
-					<div className="col-sm-4">
-						<h4>My Account</h4>
-						<ul className="">
-							<li><Link to="#">My Account</Link></li>
-							<li><Link to="#">Order History</Link></li>
-							<li><Link to="#">Wish List</Link></li>
-							<li><Link to="#">Newsletter</Link></li>
-						</ul>
+					<div className='col'>
+						<img className='img-fluid'  src={googleplay} alt='' />
 					</div>
-					<div className="col-sm-5 text-white">
-					<h1><p>FEST@C MART</p></h1>
-						<p>The best store for your wears...Check on us in this links below</p>
-						<br/>
-						<div className="">
-							<Link className="mx-2" to="#"><img width="10" src={facebook} alt="" /></Link>
-							<Link className="mx-2" to="#"><img width="20" src={twitter} alt="" /></Link>
-							<Link className="mx-2" to="#"><img width="20" src={path} alt="" /></Link>
-							<Link className="mx-2" to="#"><img width="20" src={skype} alt="" /></Link>
-                            <Link className="mx-2" to="#"><img width="20" src={youtube} alt="" /></Link>
-							<Link className="mx-2" to="#"><img width="20" src={instagram} alt="" /></Link>
-                            <Link className="mx-2" to="#"><img width="20" src={linkedin} alt="" /></Link>
-						</div>
-					</div>					
-				</div>	
-			</section>
-			<section className='text-center py-0 bg-dark text-white'>
-				<p>Copyright 2020 Fest@c Mart. All right reserved.</p>
-			</section>
-		
-    </div>
+					<div className='col'>
+						<img className='img-fluid'  src={microsoft} alt='' />
+					</div>
+				</div>
+
+			</div>
+		</div>					
+    </footer>
 )
 
 export default footer

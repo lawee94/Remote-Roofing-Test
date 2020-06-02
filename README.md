@@ -1,21 +1,47 @@
-firebase project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Remote Roofing Frontend Test
 
-## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and built with React, Redux, JavaScript, and CSS.
 
-In the project directory, you can run:
+## Requirement
 
-### `npm start`
+axios <br />
+react-redux <br />
+react-router <br />
+react-router-dom <br />
+redux <br />
+redux-thunk <br />
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The requirements below are optional.. Only for testing <br />
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+enzyme <br />
+enzyme-adapter-react-16 <br />
+redux-mock-store
+
+## Installation and Setup Instructions
+
+Clone down this repository. You will need node and npm installed globally on your machine.
+
+###  `$ git clone https://github.com/lawee94/Remote-Roofing-Test.git`
+
+Installation:
+
+To install all the necessary requirements and dependency. In the project directory run:
+
+### `npm install`
+
+To Run Test Suite
 
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+To Start Server
+
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm run build`
 
@@ -25,44 +51,17 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Reflection
 
-**Note: firebase is a one-way operation. Once you `eject`, you can’t go back!**
+The technologies implemented in this project are React, React-Router , Redux, axios and a significant amount of VanillaJS, JSX, and CSS. I chose to use the create-react-app boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. Also i choose redux purposely to manage the state of react component such as the error state, loading state and the content gotten from API JSON Feed using axios.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. firebase command will remove the single build dependency from your project.
+The improvement that can be made to this project are:
+    1.  Adding a detail page showing description about each movie or series
+    2.  Adding authentication.
+    3.  Functionality of adding movie or series to a watchlist, favourite or playlist.
+    4.  Adding pagination
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At firebase point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use firebase feature. However we understand that firebase tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-firebase section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-firebase section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-firebase section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-firebase section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-firebase section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-firebase section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
